@@ -1,0 +1,8 @@
+f=open("E:\\python programing practice\\lab-10\\1ST.txt","r")
+f1=open("E:\\python programing practice\\lab-10\\2ND.txt","w")
+s=f.read()
+f1.write(s)
+f1.write(s)
+print("d")
+f.close()
+f1.close()
